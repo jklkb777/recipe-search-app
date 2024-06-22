@@ -1,70 +1,46 @@
-# Getting Started with Create React App
 
+# Search Bar
+Wyszukiwarka przepisów działająca na React i na API Edamam recipe api.
+<img width="893" alt="Zrzut ekranu 2024-06-22 o 15 23 41" src="https://github.com/jklkb777/recipe-search-app/assets/77102058/66ef496d-1381-43be-b6d3-1ecdb7e434b1">
+
+
+## Framework React
+https://react.dev/ 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+Główne cechy:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Komponentowa struktura: React opiera się na komponentach, które są samodzielnie działającymi częściami interfejsu użytkownika.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+JSX (JavaScript XML): Rozszerzenie składni JavaScript, które pozwala na mieszanie kodu JavaScript i HTML w celu tworzenia interfejsu.
 
-### `npm test`
+Virtual DOM: Efektywniejsze zarządzanie zmianami w interfejsie poprzez wirtualny model DOM.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Reużywalność komponentów: Modularne podejście ułatwiające ponowne użycie komponentów w różnych częściach aplikacji.
 
-### `npm run build`
+Duża społeczność i ekosystem: Rozległa społeczność i wsparcie narzędziowe, co ułatwia naukę i rozwój aplikacji.
+## Generatory komponentów (modeli, kontrolerów, api, ...)
+Create React App (CRA) dostarcza strukturę projektu i szablony plików, ale nie zawiera wbudowanych generatorów komponentów. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Ręcznie zostaly stworzone komponenty.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+API - wykorzystano Edamam Recipe API
+https://developer.edamam.com/edamam-docs-recipe-api
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Routery kierujące ruchem HTTP
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Do obsługi routingu w aplikacji użyto React Router. 
+## Szablony HTML
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Szablony HTML w projekcie są tworzone za pomocą JSX (JavaScript XML), który jest rozszerzeniem JavaScript umożliwiającym deklaratywne tworzenie interfejsu użytkownika w React. JSX pozwala na mieszanie kodu JavaScript i HTML
+## Konektory baz danych
+Aplikacja nie korzysta bezpośrednio z konektorów do baz danych, ponieważ jej głównym celem jest komunikacja z zewnętrznym API (Edamam API) 
+## Współpraca z REST API
+Axios - Komunikacja z REST API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Axios jest biblioteką HTTP dla przeglądarek i Node.js, która umożliwia wykonywanie zapytań HTTP do zewnętrznych serwerów, w tym do REST API. Jest powszechnie stosowany w aplikacjach React do pobierania danych z API i wysyłania żądań HTTP.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
