@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,87 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.App {
+  text-align: center;
 }
+
+.search-form {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.search-form input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-form button {
+  padding: 10px 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipe {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px;
+  text-align: left;
+  background-color: rgb(240, 251, 240);
+}
+
+.recipe h2 {
+  margin-bottom: 10px;
+}
+
+.recipe img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.recipe a {
+  display: block;
+  margin-top: 10px;
+}
+.header-background {
+  background: rgb(0,254,243);
+background: linear-gradient(90deg, rgba(0,254,243,1) 0%, rgba(91,255,0,1) 100%);
+  padding: 40px;
+  color: white; 
+  letter-spacing: 3px;
+  margin-top: 0px;
+}
+  
+.myButton {
+	background-color:#57db7a;
+	border-radius:28px;
+	border:0px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+  margin-left: 12px;
+  transition: 0.8s;
+}
+.myButton:hover {
+	border-radius: 10px;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
